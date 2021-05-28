@@ -1,7 +1,3 @@
 clear
-input="banner.txt"
-while IFS= read -r line
-do
-  echo "$line"
-done < "$input"
+toilet -f pagga "UBUNTU"
 ./start-ubuntu20.sh

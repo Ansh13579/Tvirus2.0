@@ -3,5 +3,5 @@ input="banner.txt"
 while IFS= read -r line
 do
   echo "$line"
-done < "$input
-bash ./start-ubuntu20.sh
+done < "$input"
+./start-ubuntu20.sh
